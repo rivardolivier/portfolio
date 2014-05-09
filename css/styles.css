@@ -1,0 +1,124 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+  font-family: Helvetica Neue, Helvetica, Arial;
+  font-weight: 300;
+}
+
+
+.container{
+width:90%;}
+
+
+body {
+  /* Margin bottom by footer height */
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: white;
+}
+
+#footer p{
+  text-align: center;
+}
+
+#rsociaux{
+  /*background-color: rgba(80, 109, 125, 1);*/
+  padding-bottom: 30px;
+  color:black;
+}
+
+#billets{
+  /*background-color: #94CCB9;*/
+}
+
+
+#safi{
+  background-color: white;
+  color: black;
+}
+
+.spacing-bottom{
+  margin-bottom: 5px;
+}
+
+.spacing-bottom{
+  margin-bottom: 30px;
+}
+
+h2{
+  margin-left: 15px;
+  font-size: 35pt;
+  font-weight: 300;
+  text-decoration:underline;
+}
+
+h4{
+  font-weight: 300;
+}
+
+#apropos{
+  padding-bottom: 30px;
+}
+
+#apropos ul{
+  font-size: 13pt;
+}
+
+.projet{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#projets{
+  background-color: #323753;
+  color:rgb(243, 243, 243);
+
+}
+
+.section{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#technologies p{
+  font-size: 18pt;
+}
+
+.outil{
+  font-size: 16pt;
+}
+
+.langage{
+  font-size: 24pt;
+}
+
+.framework{
+  font-size: 20pt;
+}
+
+.btn{
+  width:50%;
+}
+
+.descriptionPhoto{
+  font-size:10pt;
+  color:rgb(115, 115, 115);
+  margin-bottom: 35px;
+}
+
+video{
+  width: 100%;
+}
+
+
+
+

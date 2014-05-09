@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Portfolio - Olivier Rivard</title>
+
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Portfolio</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">À Propos</a></li>
+            <li class="active"><a href="safi.html">SAFI</a></li>
+            <li><a href="splash.html">SPLASH</a></li>
+            <li><a href="billets.html">BillETS</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div id="safi" >
+      <div class="container">
+        <h2>SAFI</h2>
+        <div class="col-sm-6">
+          <p>
+            L’application web SAFI est une plateforme web qui permet de faire la gestion des auditions pour différentes productions. Elle a été utilisée dans les productions de télévision de La Voix, Occupation Double et prochainement Vol920. Elle permet de centralisé dans une seule application les différentes étapes d’une audition comme l’inscription, la prise de photo, le suivi des participants, l’audition, la sélection des candidats, etc. 
+          </p>
+          <p>
+            L’application web est fait en PHP à l’aide du framework CodeIgniter. La mise en page se fait à l’aide de Bootstrap et il y a une partie de l’information qui est transmise en temps réel à l’aide de Node.js.
+          </p>
+        </div>
+        <div class="col-sm-6">
+          <img src="images/safi1.jpg" class="img-responsive spacing-bottom" alt="Consultation des candidats">
+          <p class="descriptionPhoto">
+           Cette section permet de faire la consultation des fiches des candidats. Elle est utilisée par les juges pour noter la performance des candidats lors de leur audition. Elle sert aussi à revoir la vidéo d'audition et consulter les formulaires d'inscription rempli par les candidats. Cette section comporte aussi une partie en direct fait à l’aide de Node Js qui permet d’obtenir des statistique de la journée comme le nombre de candidats qui attendent pour passer leur audition.
+          </p>
+        </div>
+        <div class="col-sm-6">
+          <img src="images/safi2.jpg" class="img-responsive spacing-bottom" alt="Administration du site">
+          <p class="descriptionPhoto">
+            Cette section permet de faire l’administration du site. Il est possible de modifier la fiche d’un candidat, d’ajouter ou modifier une question au formulaire d’inscription ainsi que d’avoir des statistiques relatives à la production comme par exemple les dix chansons les plus interprétées en auditions.
+          </p>
+        </div>
+        <div class="col-sm-6">
+          <img src="images/safi3.jpg" class="img-responsive spacing-bottom" alt="Gestion d'emplacement des candidats">
+          <p class="descriptionPhoto">
+            Cette page permet de gérer l’ordre de passage des candidats en audition selon certains critères, comme leur accompagnement. Lorsqu’un candidat est envoyé dans la liste d’attente des prochains à passer, l’information est transmise aux juges afin qu’ils puissent aller consulter la fiche du candidat avant qu’il ne passe en audition.
+          </p>
+        </div>
+        <div class="col-sm-12">
+          <h4>Technologies</h4>
+        <ul class="list-inline">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>JQuery</li>
+          <li>PHP</li>
+          <li>MySQL</li>
+          <li><a href="http://nodejs.org/" target="_blank">Node.js</a></li>
+          <li><a href="http://ellislab.com/codeigniter" target="_blank">CodeIgniter</a></li>
+          <li><a href="http://www.jwplayer.com/" target="_blank">JWPLAYER</a></li>
+        </ul>
+      </div>
+  </div>
+</div>
+ 
+
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <p>Copyright © 2014 Olivier Rivard Tous droits réservés.</p>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  </body>
+  <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+</html>
